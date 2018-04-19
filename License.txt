@@ -1,0 +1,5 @@
+305 project2 - Survival games
+
+Copyright 2018 by the contributors
+
+This program is free game for playing the survival rule inside a no-man island.

@@ -1,0 +1,5 @@
+## 0.0.2 - 2018-04-18 [Junjiang yu]
+Upload our basic mainpage,gamepage and comment page with image inside.
+
+## 0.0.1 - 2018-04-17 [Junjiang yu]
+Upload our plan, Map image inside the project.
