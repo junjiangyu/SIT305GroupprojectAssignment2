@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SIT305GroupProject/BeachViewController.swift"
+            timestampString = "547127973.506236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "BeachViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SIT305GroupProject.BeachViewController.bgImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "SIT305GroupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yjunji/Desktop/SIT305GroupprojectAssignment2-master%202/SIT305GroupProject/BeachViewController.swift"
+                  timestampString = "547126236.175934"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SIT305GroupProject.BeachViewController.bgImage.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "SIT305GroupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yjunji/Desktop/SIT305GroupprojectAssignment2-master%202/SIT305GroupProject/BeachViewController.swift"
+                  timestampString = "547126236.177531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SIT305GroupProject.BeachViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SIT305GroupProject.BeachViewController"
+                  moduleName = "SIT305GroupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yjunji/Desktop/SIT305GroupprojectAssignment2-master%202/SIT305GroupProject/BeachViewController.swift"
+                  timestampString = "547126236.178853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SIT305GroupProject.BeachViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SIT305GroupProject.BeachViewController&gt;"
+                  moduleName = "SIT305GroupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yjunji/Desktop/SIT305GroupprojectAssignment2-master%202/SIT305GroupProject/BeachViewController.swift"
+                  timestampString = "547126236.180275"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

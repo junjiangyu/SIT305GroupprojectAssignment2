@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StartWords</key>
+	<string>You have engaged a huge storm from the sea. And the boat you are taking was broken, you got no conscience on the sea for the sealing day by day……When you wake up, you have found yourself are on the beach, you don’t know where this island is, and don’t know what you should do. The only thing you will need to do is to survive, you know that you need to search inside this island and find if you can get any help there. And there are some ways in front of you:
+</string>
+	<key>way1</key>
+	<string>So many trees inside this direction. Go this way?</string>
+	<key>way2</key>
+	<string>Many sand inside this direction. Maybe this way?</string>
+	<key>way3</key>
+	<string>Many containers inside this direction. Go this way?</string>
+	<key>way4</key>
+	<string>Looks like inside this direction got an abandon airport. Go this way?</string>
+</dict>
+</plist>
