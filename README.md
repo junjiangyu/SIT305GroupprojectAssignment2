@@ -6,6 +6,10 @@ JunCheng wang, SID215204943
 
 And this Game is the survival game based on the island for the gamer to try to survive inside island and find a way out.
 
+Data: All data under data directory.
+Image: All image under image directory.
+
+
 
 # Henry comments 18/April
 - You need a licenses.txt and changelog.txt/.md file
