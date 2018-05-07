@@ -1,4 +1,10 @@
-## 0.0.1 - 2018-04-25 [juncheng wang]
+## 0.0.5 - 2018-05-05 [juncheng wang]
+Create the forest function inside the game for player to play inside.
+
+## 0.0.4 - 2018-04-25 [juncheng wang]
+Update the main page and create the new file
+
+## 0.0.3 - 2018-04-20 [juncheng wang]
 Update the main page and start to create the datafile.
 
 ## 0.0.2 - 2018-04-18 [Junjiang yu]
