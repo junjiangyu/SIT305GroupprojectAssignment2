@@ -2,7 +2,7 @@
 Create the forest function inside the game for player to play inside.
 
 ## 0.0.4 - 2018-04-25 [juncheng wang]
-Update the main page and create the new file
+Update the main page and create the new file and add the music file inside.
 
 ## 0.0.3 - 2018-04-20 [juncheng wang]
 Update the main page and start to create the datafile.
