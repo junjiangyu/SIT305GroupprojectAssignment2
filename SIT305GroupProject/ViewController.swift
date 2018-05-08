@@ -11,11 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var startBtn: UIButton!
-    
-    @IBOutlet weak var continueBtn: UIButton!
-    
-    @IBOutlet weak var settingBtn: UIButton!
-    
     @IBOutlet weak var bgImage: UIImageView!
     
     override func viewDidLoad() {
