@@ -12,12 +12,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var startBtn: UIButton!
     @IBOutlet weak var bgImage: UIImageView!
+    @IBOutlet weak var continueBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,10 +38,42 @@ class ViewController: UIViewController {
     
     @IBAction func startGameClick(_ sender: Any) {
         
+        let userDefault = UserDefaults.standard;
+        
+        let progress = userDefault.float(forKey: "ProgressKey");
+        
+        if progress > 0{
+            let alert = UIAlertController.init(title: nil, message: "You have unfinished game, do you want to restart?", preferredStyle: .alert);
+            alert.addAction(UIAlertAction.init(title: "OK", style: .default, handler: { (UIAlertAction) in
+                self.startNewGame();
+            }))
+            alert.addAction(UIAlertAction.init(title: "cancel", style: .cancel, handler: nil));
+            
+            self.present(alert, animated: true, completion: nil);
+        }else{
+            
             self.startNewGame();
+        }
         
     }
     
+    
+    @IBAction func ContinueGame(_ sender: Any) {
+        
+        let userDefault = UserDefaults.standard;
+        
+        let progress = userDefault.float(forKey: "ProgressKey");
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainViewContorller") as! MainViewController;
+        
+        
+        if progress <= 0{
+            let alert = UIAlertController.init(title: nil, message: "You DO NOT have any unfinished game.", preferredStyle: .alert);
+            alert.addAction(UIAlertAction.init(title: "cancel", style: .cancel, handler: nil));
+            self.present(alert, animated: true, completion: nil);
+        }else{
+            self.present(vc, animated: true, completion: nil);
+        }
+    }
     
     /// start a new game with default data;
     func startNewGame() {

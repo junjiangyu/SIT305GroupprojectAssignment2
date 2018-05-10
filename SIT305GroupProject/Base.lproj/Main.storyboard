@@ -53,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpB-hu-fVc">
-                                <rect key="frame" x="99" y="331" width="178" height="60"/>
+                                <rect key="frame" x="99" y="433" width="178" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25134793129999999" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="19"/>
@@ -65,6 +65,19 @@
                                     <segue destination="G7h-aH-pgF" kind="show" id="85m-pa-VZL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd2-re-F4l">
+                                <rect key="frame" x="99" y="325" width="178" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25134793129999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.3666648327" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="ContinueGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QWD-oS-tfx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -72,6 +85,7 @@
                     <navigationItem key="navigationItem" title="Home" largeTitleDisplayMode="never" id="hbx-qv-Cza"/>
                     <connections>
                         <outlet property="bgImage" destination="s0z-oW-k1n" id="H4n-AZ-GKl"/>
+                        <outlet property="continueBtn" destination="Nd2-re-F4l" id="Mv8-ti-eRx"/>
                         <outlet property="startBtn" destination="phE-K4-WLp" id="y29-g4-rgS"/>
                     </connections>
                 </viewController>
@@ -134,6 +148,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" red="1" green="0.26132038461634866" blue="0.19477621456896765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NrQ-nE-IwN">
+                                <rect key="frame" x="323" y="0.0" width="52" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25134793129999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.3666648327" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="ContinueGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kau-YU-Mjf"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="yqF-Lb-Ufo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="a6B-J9-mO9"/>
@@ -147,7 +175,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHq-nf-OeW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-785" y="185"/>
+            <point key="canvasLocation" x="-786.39999999999998" y="184.85757121439281"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AyX-mP-VCl">
@@ -580,6 +608,6 @@
         <image name="forest.jpg" width="338" height="149"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3LO-MR-Xie"/>
+        <segue reference="yqF-Lb-Ufo"/>
     </inferredMetricsTieBreakers>
 </document>
