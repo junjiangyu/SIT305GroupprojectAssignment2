@@ -90,6 +90,9 @@ class MainViewController: UIViewController {
         case 1001:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "BeachViewController")as! BeachViewController;
             self.present(vc, animated: true, completion: nil);
+        case 1002:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "HarborViewController")as! HarborViewController;
+            self.present(vc, animated: true, completion: nil);
             
             
         default:
