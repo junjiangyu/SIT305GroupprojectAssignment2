@@ -1,7 +1,16 @@
+## 0.0.8 - 2018-05-12 [juncheng wang]
+Create the harbour scene
+
+## 0.0.7 - 2018-05-10 [junjiang yu]
+Create the continue game function
+
+## 0.0.6 - 2018-05-08 [juncheng wang]
+Create the beach function inside the game for player to play inside and also the setting game function.
+
 ## 0.0.5 - 2018-05-05 [juncheng wang]
 Create the forest function inside the game for player to play inside.
 
-## 0.0.4 - 2018-04-25 [juncheng wang]
+## 0.0.4 - 2018-04-25 [junjiang yu]
 Update the main page and create the new file and add the music file inside.
 
 ## 0.0.3 - 2018-04-20 [juncheng wang]
