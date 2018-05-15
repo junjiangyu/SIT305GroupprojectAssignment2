@@ -51,6 +51,7 @@ class MainViewController: UIViewController {
                 imageBtn.setBackgroundImage(UIImage.init(named: "airport.jpg"), for: .normal);
             }
             
+            
             imageBtn.addSubview(label);
             
             
@@ -93,6 +94,10 @@ class MainViewController: UIViewController {
         case 1002:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "HarborViewController")as! HarborViewController;
             self.present(vc, animated: true, completion: nil);
+        case 1003:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "AirportViewController")as! AirportViewController;
+            self.present(vc, animated: true, completion: nil);
+
             
             
         default:

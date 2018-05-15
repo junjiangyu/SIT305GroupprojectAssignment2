@@ -1,35 +1,31 @@
 //
-//  BeachViewController.swift
+//  AirportViewController.swift
 //  SIT305GroupProject
 //
-//  Created by Juncheng wang on 8/5/18.
+//  Created by JOHN YU on 15/5/18.
 //  Copyright © 2018 SIT305. All rights reserved.
 //
 
 import UIKit
 
-class BeachViewController: UIViewController {
-    
+class AirportViewController: UIViewController {
     var actions = NSMutableArray.init();
     
-    @IBOutlet weak var bgImage: UIImageView!
     @IBOutlet weak var stateImage: UIImageView!
     @IBOutlet weak var stateLabel: UILabel!
     @IBOutlet weak var progressBar: UISlider!
     @IBOutlet weak var healthBar: UISlider!
+    @IBOutlet weak var bgImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let userDefault = UserDefaults.standard;
         
-        // Do any additional setup after loading the view.
-        if userDefault.bool(forKey: "GetBeachWinKey") == false{
-            actions.add("There are some shafts inside this direction. Collect it (+25% winning point)");
+        actions.add("You have meet the huge radiation inside this direction which cause you to get really hurt from there. (HP-30%).");
+        actions.add("You have found some cans inside this direction for the food. Recover 20% HP");
+        if userDefault.bool(forKey: "GetAirportWinKey") == false {
+            actions.add("You have found some petrol inside of airport. Collect to get 25% winning point");
         }
-        actions.add("You have meet the kind SpongeBob SquarePants. Which recover you with 20% HP");
-        actions.add("There are some bad crab and fish inside this direction, you don't know and eat them. (-20% HP)");
-        actions.add("There is nothing inside this direction which looks barren");
-        
+        actions.add("You have found a broken plane inside of this direction but no other things inside");
         
         
         let progress = userDefault.float(forKey: "ProgressKey");
@@ -70,27 +66,27 @@ class BeachViewController: UIViewController {
     @IBAction func backClickAction(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil);
     }
-    
-    @IBAction func chooseActions(_ sender: UIButton) {
+    @IBAction func actionChooseClick(_ sender: Any) {
         let userDefault = UserDefaults.standard;
         
         let index = arc4random()%UInt32(actions.count);
         stateLabel.text = (actions.object(at: Int(index)) as! String);
-        if stateLabel.text == "There are some shafts inside this direction. Collect it (+25% winning point)"
+        
+        if stateLabel.text == "You have meet the huge radiation inside this direction which cause you to get really hurt from there. (HP-30%)."
         {
-            progressBar.value = progressBar.value + 0.25;
-            actions.remove("There are some shafts inside this direction. Collect it (+25% winning point)");
-            userDefault.set(true, forKey: "GetBeachWinKey");
+            healthBar.value = healthBar.value - 0.3;
+            stateImage.image = UIImage.init(named: "radiation.jpg");
         }
-        else if stateLabel.text == "You have meet the kind SpongeBob SquarePants. Which recover you with 20% HP"
+        else if stateLabel.text == "You have found some cans inside this direction for the food. Recover 20% HP"
         {
             healthBar.value = healthBar.value + 0.2;
-            stateImage.image = UIImage.init(named: "spongebob.jpg");
         }
-        else if stateLabel.text == "There are some bad crab and fish inside this direction, you don't know and eat them. (-20% HP)"
+        else if stateLabel.text == "You have found some petrol inside of airport. Collect to get 25% winning point"
         {
-            healthBar.value = healthBar.value - 0.2;
-            stateImage.image = UIImage.init(named: "crab.jpg");
+            progressBar.value = progressBar.value + 0.25;
+            actions.remove("You have found some petrol inside of airport. Collect to get 25% winning point");
+            userDefault.set(true, forKey: "GetAirportWinKey");
+            userDefault.synchronize();
         }
         
         self.checkDeathOrWin();
@@ -128,5 +124,4 @@ class BeachViewController: UIViewController {
             userDefault.synchronize();
         }
     }
-    
 }

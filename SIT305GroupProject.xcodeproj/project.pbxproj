@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F400D1820AAB1AC005CF92B /* AirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F400D1720AAB1AC005CF92B /* AirportViewController.swift */; };
 		6F4A0C2220873AE200137E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A0C2120873AE200137E48 /* AppDelegate.swift */; };
 		6F4A0C2420873AE200137E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A0C2320873AE200137E48 /* ViewController.swift */; };
 		6F4A0C2720873AE300137E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4A0C2520873AE300137E48 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F400D1720AAB1AC005CF92B /* AirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewController.swift; sourceTree = "<group>"; };
 		6F4A0C1E20873AE200137E48 /* SIT305GroupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIT305GroupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4A0C2120873AE200137E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F4A0C2320873AE200137E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				6FAA8236209C78B500FF61AF /* ForestViewController.swift */,
 				6F8E085B20A1A18C009E38D5 /* BeachViewController.swift */,
 				6F4A0C2520873AE300137E48 /* Main.storyboard */,
+				6F400D1720AAB1AC005CF92B /* AirportViewController.swift */,
 				6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */,
 				6F8E085D20A1A765009E38D5 /* SettingViewController.swift */,
 				6F4A0C2820873AE300137E48 /* Assets.xcassets */,
@@ -368,6 +371,7 @@
 				6F4A0C2420873AE200137E48 /* ViewController.swift in Sources */,
 				6F4A0C2220873AE200137E48 /* AppDelegate.swift in Sources */,
 				6FAA8237209C78B500FF61AF /* ForestViewController.swift in Sources */,
+				6F400D1820AAB1AC005CF92B /* AirportViewController.swift in Sources */,
 				6F8E085E20A1A765009E38D5 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
