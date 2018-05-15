@@ -21,10 +21,10 @@ class MainViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        waysScrollView.contentSize = CGSize.init(width: 375 * 4, height: waysScrollView.frame.size.height);
+        waysScrollView.contentSize = CGSize.init(width: 375 * 6, height: waysScrollView.frame.size.height);
         
         
-        for i in 0...3 {
+        for i in 0...5 {
             let imageBtn = UIButton.init(frame: CGRect.init(x: i*375, y: 0, width: 375, height: Int(waysScrollView.frame.size.height)));
             
             imageBtn.setBackgroundImage(UIImage.init(named: "island.jpeg"), for: .normal);
@@ -38,17 +38,23 @@ class MainViewController: UIViewController {
             label.numberOfLines = 2;
             label.textColor = UIColor.cyan;
             if i == 0{
+               imageBtn.setBackgroundImage(UIImage.init(named: "island.jpeg"), for: .normal);
+            }
+            else if i == 1{
                 label.text = "So many trees inside this direction. Go this way?";
                 imageBtn.setBackgroundImage(UIImage.init(named: "forest.jpg"), for: .normal);
-            }else if i == 1{
+            }else if i == 2{
                 label.text = "Many sand inside this direction. Maybe this way?";
                 imageBtn.setBackgroundImage(UIImage.init(named: "beach.jpg"), for: .normal);
-            }else if i == 2{
+            }else if i == 3{
                 label.text = "Many containers inside this direction. Go this way?";
                 imageBtn.setBackgroundImage(UIImage.init(named: "harbor.jpg"), for: .normal);
-            }else{
+            }else if i == 4{
                 label.text = "Looks like inside this direction got an abandon airport. Go this way?";
                 imageBtn.setBackgroundImage(UIImage.init(named: "airport.jpg"), for: .normal);
+            }else if i == 5{
+                label.text = "Looks like a small wood house inside of there,Go this way?";
+                imageBtn.setBackgroundImage(UIImage.init(named: "house.jpeg"), for: .normal);
             }
             
             
@@ -85,17 +91,20 @@ class MainViewController: UIViewController {
         
         //use button's tag to choose way.
         switch btn.tag {
-        case 1000:
+        case 1001:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "ForestViewController")as! ForestViewController;
             self.present(vc, animated: true, completion: nil);
-        case 1001:
+        case 1002:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "BeachViewController")as! BeachViewController;
             self.present(vc, animated: true, completion: nil);
-        case 1002:
+        case 1003:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "HarborViewController")as! HarborViewController;
             self.present(vc, animated: true, completion: nil);
-        case 1003:
+        case 1004:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "AirportViewController")as! AirportViewController;
+            self.present(vc, animated: true, completion: nil);
+        case 1005:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "HouseViewController")as! HouseViewController;
             self.present(vc, animated: true, completion: nil);
 
             
