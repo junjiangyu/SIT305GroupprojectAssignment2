@@ -87,6 +87,9 @@ class ViewController: UIViewController {
         userDefault.set(false, forKey: "GetBeachWinKey");
         userDefault.set(false, forKey: "GetHarborWinKey");
         userDefault.set(false, forKey: "GetAirportWinKey");
+        userDefault.set(false, forKey: "GetHouseWinKey");
+        userDefault.set(false, forKey: "GetChurchWinkey");
+        
         userDefault.synchronize();
         
         self.present(vc, animated: true, completion: nil);

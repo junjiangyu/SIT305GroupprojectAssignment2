@@ -1,13 +1,14 @@
 //
-//  HouseViewController.swift
+//  ChurchViewController.swift
 //  SIT305GroupProject
 //
 //  Created by JOHN YU on 15/5/18.
 //  Copyright © 2018 SIT305. All rights reserved.
 //
+
 import UIKit
 
-class HouseViewController: UIViewController {
+class ChurchViewController: UIViewController {
     var actions = NSMutableArray.init();
     @IBOutlet weak var stateImage: UIImageView!
     @IBOutlet weak var stateLabel: UILabel!
@@ -18,12 +19,12 @@ class HouseViewController: UIViewController {
         super.viewDidLoad()
         let userDefault = UserDefaults.standard;
         
-        actions.add("Unfortunately, the house got crashed which falling down get you lose 30% HP.");
-        actions.add("You have found some bread inside the house. Collect to recover HP 10%");
-        actions.add("You have found some meat inside the house, Collect to recover HP 10%.");
+        actions.add("Unfortunately, you have meet the Evil priest,Which cause you lose 30% HP.");
+        actions.add("You have viewed the bible which recover 5% HP");
+        actions.add("You have meet the kind priest, Which recover you with 10% HP.");
         
-        if userDefault.bool(forKey: "GetHouseWinKey") == false{
-            actions.add("You have found some gears inside this direction, take it inside to your backpack. (+25% wining point)");
+        if userDefault.bool(forKey: "GetChurchWinkey") == false{
+            actions.add("You have get the book from the priest which told you how to fix the plane. (+25% wining point)");
         }
         
         let progress = userDefault.float(forKey: "ProgressKey");
@@ -70,26 +71,28 @@ class HouseViewController: UIViewController {
         
         let index = arc4random()%UInt32(actions.count);
         stateLabel.text = (actions.object(at: Int(index)) as! String);
-        if stateLabel.text == "Unfortunately, the house got crashed which falling down get you lose 30% HP."
+        if stateLabel.text == "Unfortunately, you have meet the Evil priest,Which cause you lose 30% HP."
         {
-            healthBar.value = healthBar.value - 0.5;
-            stateImage.image = UIImage.init(named: "falling.jpeg");
+            healthBar.value = healthBar.value - 0.3;
+            stateImage.image = UIImage.init(named: "evil.png");
         }
-        else if stateLabel.text == "You have found some bread inside the house. Collect to recover HP 10%"
+        else if stateLabel.text == "You have viewed the bible which recover 5% HP"
         {
-            healthBar.value = healthBar.value + 0.1;
-            stateImage.image = UIImage.init(named: "bread.jpeg");
+            healthBar.value = healthBar.value + 0.05;
+            stateImage.image = UIImage.init(named: "bible.jpeg");
         }
-        else if stateLabel.text == "You have found some gears inside this direction, take it inside to your backpack. (+25% wining point)"
+        else if stateLabel.text == "You have get the book from the priest which told you how to fix the plane. (+25% wining point)"
         {
             progressBar.value = progressBar.value + 0.25;
-            actions.remove("You have found some gears inside this direction, take it inside to your backpack. (+25% wining point)");
-            userDefault.set(true, forKey: "GetHouseWinKey");
+            stateImage.image = UIImage.init(named: "plane.jpeg");
+            actions.remove("You have get the book from the priest which told you how to fix the plane. (+25% wining point)");
+            userDefault.set(true, forKey: "GetChurchWinkey");
             userDefault.synchronize();
         }
-        else if stateLabel.text == "You have found some meat inside the house, Collect to recover HP 10%."{
+        else if stateLabel.text == "You have meet the kind priest, Which recover you with 10% HP."
+        {
             healthBar.value = healthBar.value + 0.1;
-            stateImage.image = UIImage.init(named: "meat.jpeg");
+            stateImage.image = UIImage.init(named: "Priest.jpeg");
         }
         
         self.checkDeathOrWin();
@@ -128,3 +131,4 @@ class HouseViewController: UIViewController {
         }
     }
 }
+
