@@ -90,7 +90,7 @@ class ViewController: UIViewController {
         userDefault.set(false, forKey: "GetHouseWinKey");
         userDefault.set(false, forKey: "GetChurchWinkey");
         userDefault.set(false, forKey: "GetRuinWinkey");
-        
+        userDefault.set(false, forKey: "GetSchoolWinKey");
         userDefault.synchronize();
         
         self.present(vc, animated: true, completion: nil);
