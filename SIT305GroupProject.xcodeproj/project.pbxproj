@@ -30,6 +30,13 @@
 		6F4A0C4220873AE300137E48 /* SIT305GroupProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A0C4120873AE300137E48 /* SIT305GroupProjectUITests.swift */; };
 		6F8E085C20A1A18C009E38D5 /* BeachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8E085B20A1A18C009E38D5 /* BeachViewController.swift */; };
 		6F8E085E20A1A765009E38D5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8E085D20A1A765009E38D5 /* SettingViewController.swift */; };
+		6F95B0E020AC2E1900766664 /* RuinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F95B0DF20AC2E1900766664 /* RuinViewController.swift */; };
+		6F95B0E220AC2EC800766664 /* ruin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0E120AC2EC800766664 /* ruin.jpg */; };
+		6F95B0E420AC2EE200766664 /* readbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0E320AC2EE200766664 /* readbook.jpg */; };
+		6F95B0E620AC2FE800766664 /* monster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0E520AC2FE800766664 /* monster.jpg */; };
+		6F95B0E820AC301300766664 /* dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0E720AC301300766664 /* dragon.jpg */; };
+		6F95B0EA20AC304F00766664 /* alien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0E920AC304F00766664 /* alien.jpg */; };
+		6F95B0EC20AC307F00766664 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0EB20AC307F00766664 /* star.jpg */; };
 		6F95FFB420A6F14B00A0C878 /* HarborViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */; };
 		6FAA8235209C787A00FF61AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA8234209C787A00FF61AF /* MainViewController.swift */; };
 		6FAA8237209C78B500FF61AF /* ForestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA8236209C78B500FF61AF /* ForestViewController.swift */; };
@@ -100,6 +107,13 @@
 		6F4A0C4320873AE300137E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8E085B20A1A18C009E38D5 /* BeachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachViewController.swift; sourceTree = "<group>"; };
 		6F8E085D20A1A765009E38D5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6F95B0DF20AC2E1900766664 /* RuinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuinViewController.swift; sourceTree = "<group>"; };
+		6F95B0E120AC2EC800766664 /* ruin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruin.jpg; sourceTree = "<group>"; };
+		6F95B0E320AC2EE200766664 /* readbook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = readbook.jpg; sourceTree = "<group>"; };
+		6F95B0E520AC2FE800766664 /* monster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monster.jpg; sourceTree = "<group>"; };
+		6F95B0E720AC301300766664 /* dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon.jpg; sourceTree = "<group>"; };
+		6F95B0E920AC304F00766664 /* alien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alien.jpg; sourceTree = "<group>"; };
+		6F95B0EB20AC307F00766664 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.jpg; sourceTree = "<group>"; };
 		6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborViewController.swift; sourceTree = "<group>"; };
 		6FAA8234209C787A00FF61AF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6FAA8236209C78B500FF61AF /* ForestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +194,7 @@
 				6F8E085B20A1A18C009E38D5 /* BeachViewController.swift */,
 				6F4A0C2520873AE300137E48 /* Main.storyboard */,
 				6F400D2720AAC4EC005CF92B /* ChurchViewController.swift */,
+				6F95B0DF20AC2E1900766664 /* RuinViewController.swift */,
 				6F400D1D20AABA76005CF92B /* HouseViewController.swift */,
 				6F400D1720AAB1AC005CF92B /* AirportViewController.swift */,
 				6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */,
@@ -224,6 +239,7 @@
 				6FAA8261209C824E00FF61AF /* forest.jpg */,
 				6FAA8262209C824E00FF61AF /* godzilla.jpg */,
 				6FAA8263209C824E00FF61AF /* harbor.jpg */,
+				6F95B0E120AC2EC800766664 /* ruin.jpg */,
 				6F400D2B20AACC6C005CF92B /* evil.png */,
 				6FAA8264209C824E00FF61AF /* island.jpeg */,
 				6FAA8265209C824E00FF61AF /* Map.jpg */,
@@ -238,6 +254,11 @@
 				6F400D2920AACADE005CF92B /* meat.jpeg */,
 				6F400D2F20AACD61005CF92B /* bible.jpeg */,
 				6F400D3120AACDCA005CF92B /* plane.jpeg */,
+				6F95B0E320AC2EE200766664 /* readbook.jpg */,
+				6F95B0E520AC2FE800766664 /* monster.jpg */,
+				6F95B0E720AC301300766664 /* dragon.jpg */,
+				6F95B0E920AC304F00766664 /* alien.jpg */,
+				6F95B0EB20AC307F00766664 /* star.jpg */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -360,10 +381,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAA826F209C824E00FF61AF /* energy_drink.jpg in Resources */,
+				6F95B0E220AC2EC800766664 /* ruin.jpg in Resources */,
 				6FAA8270209C824E00FF61AF /* forest.jpg in Resources */,
 				6F400D2E20AACCAC005CF92B /* Priest.jpeg in Resources */,
+				6F95B0E420AC2EE200766664 /* readbook.jpg in Resources */,
 				6F4A0C2C20873AE300137E48 /* LaunchScreen.storyboard in Resources */,
 				6F400D1C20AAB9C4005CF92B /* houseinside.jpeg in Resources */,
+				6F95B0EC20AC307F00766664 /* star.jpg in Resources */,
 				6F400D2620AAC4CF005CF92B /* churchh.jpeg in Resources */,
 				6FAA8274209C824E00FF61AF /* Map.jpg in Resources */,
 				6F4A0C2920873AE300137E48 /* Assets.xcassets in Resources */,
@@ -378,6 +402,7 @@
 				6FAA8275209C824E00FF61AF /* radiation.jpg in Resources */,
 				6FAA8271209C824E00FF61AF /* godzilla.jpg in Resources */,
 				6FAA827C209C828F00FF61AF /* DisplayText.plist in Resources */,
+				6F95B0EA20AC304F00766664 /* alien.jpg in Resources */,
 				6FAA8269209C824E00FF61AF /* background.jpg in Resources */,
 				6FAA827B209C828F00FF61AF /* bgMusic.mp3 in Resources */,
 				6F400D1A20AAB611005CF92B /* house.jpeg in Resources */,
@@ -385,11 +410,13 @@
 				6FAA826D209C824E00FF61AF /* can.jpg in Resources */,
 				6FAA8276209C824E00FF61AF /* spongebob.jpg in Resources */,
 				6F400D2C20AACC6C005CF92B /* evil.png in Resources */,
+				6F95B0E820AC301300766664 /* dragon.jpg in Resources */,
 				6FAA826E209C824E00FF61AF /* crab.jpg in Resources */,
 				6FAA826A209C824E00FF61AF /* background2.jpeg in Resources */,
 				6F400D2220AABDE1005CF92B /* bread.jpeg in Resources */,
 				6F400D2020AABDB1005CF92B /* falling.jpeg in Resources */,
 				6FAA8268209C824E00FF61AF /* airport.jpg in Resources */,
+				6F95B0E620AC2FE800766664 /* monster.jpg in Resources */,
 				6F4A0C2720873AE300137E48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +446,7 @@
 				6F400D1E20AABA76005CF92B /* HouseViewController.swift in Sources */,
 				6F8E085C20A1A18C009E38D5 /* BeachViewController.swift in Sources */,
 				6FAA8235209C787A00FF61AF /* MainViewController.swift in Sources */,
+				6F95B0E020AC2E1900766664 /* RuinViewController.swift in Sources */,
 				6F4A0C2420873AE200137E48 /* ViewController.swift in Sources */,
 				6F400D2820AAC4EC005CF92B /* ChurchViewController.swift in Sources */,
 				6F4A0C2220873AE200137E48 /* AppDelegate.swift in Sources */,

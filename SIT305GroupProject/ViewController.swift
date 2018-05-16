@@ -89,6 +89,7 @@ class ViewController: UIViewController {
         userDefault.set(false, forKey: "GetAirportWinKey");
         userDefault.set(false, forKey: "GetHouseWinKey");
         userDefault.set(false, forKey: "GetChurchWinkey");
+        userDefault.set(false, forKey: "GetRuinWinkey");
         
         userDefault.synchronize();
         

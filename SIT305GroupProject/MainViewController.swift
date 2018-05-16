@@ -21,10 +21,10 @@ class MainViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        waysScrollView.contentSize = CGSize.init(width: 375 * 7, height: waysScrollView.frame.size.height);
+        waysScrollView.contentSize = CGSize.init(width: 375 * 8, height: waysScrollView.frame.size.height);
         
         
-        for i in 0...6 {
+        for i in 0...7 {
             let imageBtn = UIButton.init(frame: CGRect.init(x: i*375, y: 0, width: 375, height: Int(waysScrollView.frame.size.height)));
             
             imageBtn.setBackgroundImage(UIImage.init(named: "island.jpeg"), for: .normal);
@@ -59,6 +59,10 @@ class MainViewController: UIViewController {
             else if i == 6{
                 label.text = "Looks like a old church inside of there,Go this way?";
                 imageBtn.setBackgroundImage(UIImage.init(named: "Old_Church.jpeg"), for: .normal);
+            }
+            else if i == 7{
+                label.text = "Looks like a secret Ruin inside of there,Go this way?";
+                imageBtn.setBackgroundImage(UIImage.init(named: "ruin.jpg"), for: .normal);
             }
             
             
@@ -112,6 +116,9 @@ class MainViewController: UIViewController {
             self.present(vc, animated: true, completion: nil);
         case 1006:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChurchViewController")as! ChurchViewController;
+            self.present(vc, animated: true, completion: nil);
+        case 1007:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "RuinViewController")as! RuinViewController;
             self.present(vc, animated: true, completion: nil);
 
             
