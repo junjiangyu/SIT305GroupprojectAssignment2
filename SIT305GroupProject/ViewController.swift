@@ -17,19 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        BackGroundMusicManger.shareManger.setupMusicPlayer();
-        
-        let userDefault = UserDefaults.standard;
-        
-        let haveMusic = userDefault.bool(forKey: "playMusic");
-        
-        if haveMusic {
-            BackGroundMusicManger.shareManger.playMusic();
-        }else{
-            BackGroundMusicManger.shareManger.stopMusic();
-        }
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {

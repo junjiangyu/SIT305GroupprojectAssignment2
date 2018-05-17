@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F37990720AD691F00EA4076 /* BackGroundMusicManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F37990620AD691F00EA4076 /* BackGroundMusicManger.swift */; };
 		6F400D1820AAB1AC005CF92B /* AirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F400D1720AAB1AC005CF92B /* AirportViewController.swift */; };
 		6F400D1A20AAB611005CF92B /* house.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F400D1920AAB611005CF92B /* house.jpeg */; };
 		6F400D1C20AAB9C4005CF92B /* houseinside.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F400D1B20AAB9C4005CF92B /* houseinside.jpeg */; };
@@ -41,9 +40,11 @@
 		6F95B0EE20AC339000766664 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F95B0ED20AC339000766664 /* SchoolViewController.swift */; };
 		6F95B0F020AC33A100766664 /* school.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0EF20AC33A100766664 /* school.jpg */; };
 		6F95B0F220AC33A600766664 /* blackboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0F120AC33A600766664 /* blackboard.jpg */; };
+		6F95B0F420AC33AC00766664 /* readbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0F320AC33AC00766664 /* readbook.jpg */; };
 		6F95B0F620AC33C500766664 /* spider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0F520AC33C500766664 /* spider.jpg */; };
 		6F95B0F820AC33EE00766664 /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0F720AC33EE00766664 /* fire.jpg */; };
 		6F95B0FA20AC35BB00766664 /* schoolfood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0F920AC35BB00766664 /* schoolfood.jpeg */; };
+		6F95B0FC20AC360600766664 /* spider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F95B0FB20AC360600766664 /* spider.jpg */; };
 		6F95FFB420A6F14B00A0C878 /* HarborViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */; };
 		6FAA8235209C787A00FF61AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA8234209C787A00FF61AF /* MainViewController.swift */; };
 		6FAA8237209C78B500FF61AF /* ForestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA8236209C78B500FF61AF /* ForestViewController.swift */; };
@@ -85,7 +86,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F37990620AD691F00EA4076 /* BackGroundMusicManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundMusicManger.swift; sourceTree = "<group>"; };
 		6F400D1720AAB1AC005CF92B /* AirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewController.swift; sourceTree = "<group>"; };
 		6F400D1920AAB611005CF92B /* house.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house.jpeg; sourceTree = "<group>"; };
 		6F400D1B20AAB9C4005CF92B /* houseinside.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = houseinside.jpeg; sourceTree = "<group>"; };
@@ -125,9 +125,11 @@
 		6F95B0ED20AC339000766664 /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 		6F95B0EF20AC33A100766664 /* school.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = school.jpg; sourceTree = "<group>"; };
 		6F95B0F120AC33A600766664 /* blackboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackboard.jpg; sourceTree = "<group>"; };
+		6F95B0F320AC33AC00766664 /* readbook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = readbook.jpg; path = "../../…Ò√ÿ“≈÷∑/readbook.jpg"; sourceTree = "<group>"; };
 		6F95B0F520AC33C500766664 /* spider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spider.jpg; sourceTree = "<group>"; };
 		6F95B0F720AC33EE00766664 /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
 		6F95B0F920AC35BB00766664 /* schoolfood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = schoolfood.jpeg; sourceTree = "<group>"; };
+		6F95B0FB20AC360600766664 /* spider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spider.jpg; path = "../../…Ò√ÿ“≈÷∑/spider.jpg"; sourceTree = "<group>"; };
 		6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborViewController.swift; sourceTree = "<group>"; };
 		6FAA8234209C787A00FF61AF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6FAA8236209C78B500FF61AF /* ForestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestViewController.swift; sourceTree = "<group>"; };
@@ -214,7 +216,6 @@
 				6F400D1720AAB1AC005CF92B /* AirportViewController.swift */,
 				6F95FFB320A6F14B00A0C878 /* HarborViewController.swift */,
 				6F8E085D20A1A765009E38D5 /* SettingViewController.swift */,
-				6F37990620AD691F00EA4076 /* BackGroundMusicManger.swift */,
 				6F4A0C2820873AE300137E48 /* Assets.xcassets */,
 				6F4A0C2A20873AE300137E48 /* LaunchScreen.storyboard */,
 				6F4A0C2D20873AE300137E48 /* Info.plist */,
@@ -269,6 +270,7 @@
 				6F95B0F120AC33A600766664 /* blackboard.jpg */,
 				6F400D2120AABDE1005CF92B /* bread.jpeg */,
 				6F400D2320AAC39E005CF92B /* Old_Church.jpeg */,
+				6F95B0F320AC33AC00766664 /* readbook.jpg */,
 				6F400D2520AAC4CE005CF92B /* churchh.jpeg */,
 				6F95B0F920AC35BB00766664 /* schoolfood.jpeg */,
 				6F400D2920AACADE005CF92B /* meat.jpeg */,
@@ -277,6 +279,7 @@
 				6F95B0E320AC2EE200766664 /* readbook.jpg */,
 				6F95B0E520AC2FE800766664 /* monster.jpg */,
 				6F95B0E720AC301300766664 /* dragon.jpg */,
+				6F95B0FB20AC360600766664 /* spider.jpg */,
 				6F95B0EF20AC33A100766664 /* school.jpg */,
 				6F95B0E920AC304F00766664 /* alien.jpg */,
 				6F95B0EB20AC307F00766664 /* star.jpg */,
@@ -405,10 +408,12 @@
 				6F95B0F020AC33A100766664 /* school.jpg in Resources */,
 				6F95B0E220AC2EC800766664 /* ruin.jpg in Resources */,
 				6FAA8270209C824E00FF61AF /* forest.jpg in Resources */,
+				6F95B0F420AC33AC00766664 /* readbook.jpg in Resources */,
 				6F400D2E20AACCAC005CF92B /* Priest.jpeg in Resources */,
 				6F95B0F620AC33C500766664 /* spider.jpg in Resources */,
 				6F95B0E420AC2EE200766664 /* readbook.jpg in Resources */,
 				6F4A0C2C20873AE300137E48 /* LaunchScreen.storyboard in Resources */,
+				6F95B0FC20AC360600766664 /* spider.jpg in Resources */,
 				6F400D1C20AAB9C4005CF92B /* houseinside.jpeg in Resources */,
 				6F95B0EC20AC307F00766664 /* star.jpg in Resources */,
 				6F400D2620AAC4CF005CF92B /* churchh.jpeg in Resources */,
@@ -471,7 +476,6 @@
 				6F95FFB420A6F14B00A0C878 /* HarborViewController.swift in Sources */,
 				6F400D1E20AABA76005CF92B /* HouseViewController.swift in Sources */,
 				6F8E085C20A1A18C009E38D5 /* BeachViewController.swift in Sources */,
-				6F37990720AD691F00EA4076 /* BackGroundMusicManger.swift in Sources */,
 				6FAA8235209C787A00FF61AF /* MainViewController.swift in Sources */,
 				6F95B0E020AC2E1900766664 /* RuinViewController.swift in Sources */,
 				6F4A0C2420873AE200137E48 /* ViewController.swift in Sources */,

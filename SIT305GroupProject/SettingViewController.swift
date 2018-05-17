@@ -13,18 +13,12 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var bgImage: UIImageView!
     @IBOutlet weak var cityBtn: UIButton!
     @IBOutlet weak var forestBtn: UIButton!
-    @IBOutlet weak var musicSwitch: UISwitch!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let userDefault = UserDefaults.standard;
         
-        let haveMusic = userDefault.bool(forKey: "playMusic");
-        if haveMusic {
-            musicSwitch.isOn = true;
-        }else{
-            musicSwitch.isOn = false;
-        }
         
         let bgimageName = userDefault.string(forKey: "GameBackground");
         if bgimageName == nil || bgimageName == "background.jpg" {
@@ -57,32 +51,8 @@ class SettingViewController: UIViewController {
     }
     
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    @IBAction func musicSwitchAction(_ sender: UISwitch) {
-        let userDefault = UserDefaults.standard;
-        if sender.isOn {
-            BackGroundMusicManger.shareManger.playMusic();
-            userDefault.set(true, forKey: "playMusic");
-        }else{
-            BackGroundMusicManger.shareManger.stopMusic();
-            userDefault.set(false, forKey: "playMusic");
-        }
-        userDefault.synchronize();
-    }
-    @IBAction func backClick(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil);
-    }
     @IBAction func forestThemeClick(_ sender: Any) {
         let userDefault = UserDefaults.standard;
-        
         userDefault.set("background.jpg", forKey: "GameBackground")
         userDefault.synchronize();
         forestBtn.layer.borderWidth = 3;
@@ -97,6 +67,10 @@ class SettingViewController: UIViewController {
         cityBtn.layer.borderWidth = 3;
         cityBtn.layer.borderColor = UIColor.white.cgColor;
         forestBtn.layer.borderWidth = 0;
+    }
+    
+    @IBAction func backClick(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil);
     }
     
 }
