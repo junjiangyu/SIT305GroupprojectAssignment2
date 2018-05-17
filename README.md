@@ -8,7 +8,7 @@ And this Game is the survival game based on the island for the gamer to try to s
 
 Data: All data under data directory.
 Image: All image under image directory.
-license: include all the image source file include URL, author and filename 
+
 
 
 
