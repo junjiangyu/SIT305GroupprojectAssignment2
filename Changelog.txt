@@ -1,23 +1,50 @@
-## 0.0.8 - 2018-05-12 [juncheng wang]
+# 0.0.14 - 2018-05-13 [junjiang yu]
+Create the school scene
+# 0.0.13 - 2018-05-13 [juncheng wang]
+Create the church scene
+# 0.0.12 - 2018-05-12 [juncheng wang]
+Create the house scene
+
+
+# 0.0.11 - 2018-05-12 [junjiang yu]
+Create the ruin scene
+# 0.0.10 - 2018-05-11 [juncheng wang]
+Create the setting page for the application
+# 0.0.9 - 2018-05-11 [junjiang yu]
+Create the airport scene
+
+
+# 0.0.8 - 2018-05-10 [juncheng wang]
 Create the harbour scene
 
-## 0.0.7 - 2018-05-10 [junjiang yu]
+
+# 0.0.7 - 2018-05-08 [junjiang yu]
 Create the continue game function
 
-## 0.0.6 - 2018-05-08 [juncheng wang]
+#
+# 0.0.6 - 2018-05-06 [juncheng wang]
 Create the beach function inside the game for player to play inside and also the setting game function.
 
-## 0.0.5 - 2018-05-05 [juncheng wang]
+#
+# 0.0.5 - 2018-05-05 [juncheng wang]
 Create the forest function inside the game for player to play inside.
 
-## 0.0.4 - 2018-04-25 [junjiang yu]
+#
+# 0.0.4 - 2018-04-25 [junjiang yu]
 Update the main page and create the new file and add the music file inside.
 
-## 0.0.3 - 2018-04-20 [juncheng wang]
+#
+# 0.0.3 - 2018-04-20 [juncheng wang]
 Update the main page and start to create the datafile.
 
-## 0.0.2 - 2018-04-18 [Junjiang yu]
+#
+# 0.0.2 - 2018-04-18 [Junjiang yu]
 Upload our basic mainpage,gamepage and comment page with image inside.
 
-## 0.0.1 - 2018-04-17 [Junjiang yu]
+#
+# 0.0.1 - 2018-04-17 [Junjiang yu]
 Upload our plan, Map image inside the project.
+
+
+2018-04-05 [juncheng wang & Junjiang yu]Distuributed our work and write the plan for the project.
+2018-04-02 [juncheng wang & Junjiang yu]Disscused about the project about the game.
