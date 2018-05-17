@@ -13,7 +13,8 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var bgImage: UIImageView!
     @IBOutlet weak var cityBtn: UIButton!
     @IBOutlet weak var forestBtn: UIButton!
-   
+
+    @IBOutlet weak var musicSwitch: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -50,6 +51,18 @@ class SettingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func musicSwitchAction(_ sender: UISwitch) {
+        let userDefault = UserDefaults.standard;
+        if sender.isOn {
+            BackGroundMusicManger.shareManger.playMusic();
+            userDefault.set(true, forKey: "playMusic");
+        }else{
+            BackGroundMusicManger.shareManger.stopMusic();
+            userDefault.set(false, forKey: "playMusic");
+        }
+        userDefault.synchronize();
+    }
     
     @IBAction func forestThemeClick(_ sender: Any) {
         let userDefault = UserDefaults.standard;

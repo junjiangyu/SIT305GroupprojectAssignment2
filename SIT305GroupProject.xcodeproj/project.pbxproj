@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F12561320AD75B700A91459 /* BackGroundMusicManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12561220AD75B700A91459 /* BackGroundMusicManger.swift */; };
 		6F400D1820AAB1AC005CF92B /* AirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F400D1720AAB1AC005CF92B /* AirportViewController.swift */; };
 		6F400D1A20AAB611005CF92B /* house.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F400D1920AAB611005CF92B /* house.jpeg */; };
 		6F400D1C20AAB9C4005CF92B /* houseinside.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F400D1B20AAB9C4005CF92B /* houseinside.jpeg */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F12561220AD75B700A91459 /* BackGroundMusicManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundMusicManger.swift; sourceTree = "<group>"; };
 		6F400D1720AAB1AC005CF92B /* AirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewController.swift; sourceTree = "<group>"; };
 		6F400D1920AAB611005CF92B /* house.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house.jpeg; sourceTree = "<group>"; };
 		6F400D1B20AAB9C4005CF92B /* houseinside.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = houseinside.jpeg; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		6F4A0C2020873AE200137E48 /* SIT305GroupProject */ = {
 			isa = PBXGroup;
 			children = (
+				6F12561220AD75B700A91459 /* BackGroundMusicManger.swift */,
 				6F4A0C2120873AE200137E48 /* AppDelegate.swift */,
 				6F4A0C2320873AE200137E48 /* ViewController.swift */,
 				6FAA8234209C787A00FF61AF /* MainViewController.swift */,
@@ -468,6 +471,7 @@
 				6F95FFB420A6F14B00A0C878 /* HarborViewController.swift in Sources */,
 				6F400D1E20AABA76005CF92B /* HouseViewController.swift in Sources */,
 				6F8E085C20A1A18C009E38D5 /* BeachViewController.swift in Sources */,
+				6F12561320AD75B700A91459 /* BackGroundMusicManger.swift in Sources */,
 				6FAA8235209C787A00FF61AF /* MainViewController.swift in Sources */,
 				6F95B0E020AC2E1900766664 /* RuinViewController.swift in Sources */,
 				6F4A0C2420873AE200137E48 /* ViewController.swift in Sources */,
